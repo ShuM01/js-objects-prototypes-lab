@@ -31,6 +31,7 @@ universityLibrary.addCourseBook('CS101', 'Bay Habour Butcher', 'Dexter Morgan', 
 universityLibrary.addCourseBook('CS102', 'gas and fire', 'Sergent Doakes', '978-1491904244');
 
 universityLibrary.listAllBooks();
-// Bonus: search by author
+
+// Bonus
 const booksByAuthor = universityLibrary.books.filter(book => book.author === 'Dexter Morgan');
 console.log("Books by Dexter Morgan:", booksByAuthor);
