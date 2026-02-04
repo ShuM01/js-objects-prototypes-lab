@@ -1,4 +1,4 @@
-// Exercise 7:
+// Exercise 7
 
 const person = {
   species: 'Human',
